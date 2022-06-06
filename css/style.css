@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+      padding: 0;
+      width: auto;  
+      top: 2px;
+      
+     }
+    body {
+    background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+    }
+
+
+
+    nav {
+        width: 100%;
+        float: right;
+        position:absolute;
+       }
+       
+        .menu {
+        list-style: none;
+        padding: 0.7rem;
+        float: left;
+        position: relative;
+        z-index: 1;
+
+        }
+      
+        .menu li {
+          position: relative;
+          float: right;
+         padding-left: 3px;
+      
+         }
+         .menu ul {
+         list-style: none; /*Remover bolinhas */
+         }
+        
+         .menu li a {
+         text-decoration: none; /*remover linhas menu*/
+         color:rgb(7, 0, 0);
+         padding:7px 20px;
+         border: 1px;
+         font-weight: bold;
+        
+          }
+          .menu li  .home {
+          color: rgb(235, 115, 68);
+       
+          }
+      
+          .menu li a:hover {
+          
+          color: rgb(235, 115, 68);
+          margin: 1px;
+      
+          border: 0;
+          }
+      
+          .menu li  ul {
+            position:absolute;
+            top:18px;
+            left: 0;
+            display:none;
+            
+          }
+         /******* hover *******/
+      
+          .menu li:hover ul, .menu li.over ul {
+          display: block;
+          }
+      
+        /************************ menu***************************/
+      
+      
+        /************************ Submenu***************************/
+          
+      
+         /******* hover *******/
+          .submenu a:hover {
+            margin: 1%;
+            color: rgb(235, 115, 68);
+            font-weight: bold;
+      
+          }
+      
+        /************************ Submenu ***************************/
+      
+      
+        /************************ barra de pesqeuisa ***************************/
+          #divBusca {
+           margin-left: 75%;
+           top:-30px;
+           border-radius:15px;
+           position: relative;
+          
+          }
+          
+          #txtBusca {
+          float:left;
+          border-radius: 19px;
+          position: relative;
+          padding-left:5px;
+          font-style:italic;
+          font-size:12px;
+          border:none;
+          height:22px;
+          width:75%;  /*Tamanaho da barra de pesquisa*/
+          background-color: rgb(201, 199, 199)
+          }
+      
+          .buscar{
+          left: 0%;
+          }
+          #btnBusca{
+          position: relative;
+          margin: 2px;
+          padding-left: 2px;
+          top: -2px;
+          cursor: pointer;
+          white-space: nowrap;
+          } 
+      
+        /************************ TOPO ***************************/
+
+        .titulo{
+            background-color: hsl(253, 33%, 32%);
+            padding: 1rem;
+            cursor: pointer;
+
+        }
+
+        .tituloM{
+
+            text-align: center;
+            color: #ffffff;
+        }
+
+/************************ TOPO ***************************/
+
+
+/************************ SLIDE ***************************/
+        .slide{
+            height: 50%;
+            width: 100%;
+            position: relative;
+            box-shadow:         3px 4px 3px rgba(50, 50, 50, 0.77);
+
+        }
+
+/************************ TOPO ***************************/
+
+
+/************************ PRODUTOS ***************************/
+    .vendas{
+        position: relative;
+        display: inline-block;
+        display: flex;
+        padding-top: 60px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            border-radius: 40px;
+           cursor: pointer;
+          }
+          
+          .price {
+            color: rgb(4, 136, 63);
+            font-size: 22px;
+            font-family: 'Poppins';
+            font-weight: bold;
+            cursor: pointer;
+          }
+          p{
+            color: rgb(4, 136, 63);
+            cursor: pointer;
+          }
+          .price2, p{
+            font-family: 'Poppins';
+            color: rgb(5, 110, 151);
+            cursor: pointer;
+          }
+          
+          .card button {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 19px;
+            width: 100%;
+            font-size: 18px;
+          }
+          
+          #btn{
+            border-radius: 20px;
+          }
+
+        
+          .card button:hover {
+            opacity: 0.7;
+            background-color: green;
+            color: #000000;
+            font-weight: bold;
+          }
+
+          footer{
+            bottom: 50px;
+            margin-top: 100px;
+          }
+
+
+          .vendas{
+              margin: 10px;
+          }
+        /************************ PRODUTOS ***************************/
+
+         /************************ FOOTER ***************************/
+          footer{
+         text-align: center;
+         align-items: center;
+            
+          }
+
+          /************************ FOOTER ***************************/
